@@ -42,11 +42,17 @@ void bubblesortArray()
             {
                 int temp = element[j];
                 element[j] = element[j + 1];
-                element[j + 1] = temp
+                element[j + 1] = temp;
             }
         }
-    } while ({
-        
-    });
-    
+        pass++;
+    } while (pass <= nPanjang - 1);
+}
+
+void display()
+{
+    cout << "=======================================\n";
+    cout << "  Elemen Array setelah Diurutkan (Asc)  \n";
+    cout << "=======================================\n";
+    for
 }
