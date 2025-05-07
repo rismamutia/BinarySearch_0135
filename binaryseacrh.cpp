@@ -89,11 +89,20 @@ void binarySearch()
             }
             if (x < element[mid])
             {
-                high = mid - 1
+                high = mid - 1;
             }
+            if (x > element [mid])
+            {
+                low = mid + 1;
+            }
+        } while (low <= high);
+
+        if (low <= high)
+        { 
+            cout << "\n[x] elemen " << x << "tidak ditemukan dalam array.\n";
         }
-    } while ({
+    
         
-    });
+    
     
 }
