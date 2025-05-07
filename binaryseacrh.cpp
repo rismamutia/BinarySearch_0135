@@ -80,6 +80,13 @@ void binarySearch()
         int high = nPanjang - 1;
 
         do
+        {
+            int mid = (low + high) / 2;
+            if (element[mid] == x)
+            {
+                
+            }
+        }
     } while ({
         
     });
